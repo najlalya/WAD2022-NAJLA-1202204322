@@ -9,6 +9,7 @@
 </head>
 <body>
 <body style="background-color:white; ">
+<!--  -->
     <nav class="navbar-dark bg-secondary ">
       <ul class="nav justify-content-center">
 
@@ -28,7 +29,7 @@
         </li>
       </ul>
     </nav>
-
+<!-- navbar -->
     <div class = "container style="text-align: center; padding-top: 0.5cm;">
 
       <div class="class text-center mb-5 text-primary">
@@ -41,9 +42,10 @@
         </b> 
         </p>
       </div>
-
+<!-- kotak mobil -->
       <div class="container mt-5">
         <div class="card-deck">
+          <!-- avanza -->
           <div class="card text-center" style="width: 15rem;">
             <img src="avanza.JPG" class="card-img-top" style="height: 13rem;">
 
@@ -89,7 +91,7 @@
             </div>
             </ul>
           </div>
-
+          <!--  -->
           <div class="card text-center" style="width: 15rem;">
             <img src="hrv.JPG" class="card-img-top" style="height: 13rem;">
             <div class="card-body" style="text-align:left">
@@ -140,8 +142,8 @@
             </div>
 
           </div>
-            
-            <div class="card text-center" style="width: 15rem;">
+            <!-- hrv -->
+          <div class="card text-center" style="width: 15rem;">
             <img src="fortuneritem.PNG" class="card-img-top" style="height: 13rem;">
             <div class="card-body" style="text-align:left">
               
@@ -156,7 +158,7 @@
             </p> 
 
             <br>
-        </br>
+            </br>
 
             <div class="card-text" style="text-align:center"> 
             
@@ -184,20 +186,22 @@
             <li class="list-group-item">
             </li>
               </div>
-          </div>
+            </div>
 
-          <div class="card-footer text-center">
-            <a href="Najla_Booking.php?type=Fortuner" class="btn btn-primary form-control">
-                <b>
-                Book Now
-                </b>
-            </a>
-              
-          </div>
+            <div class="card-footer text-center">
+              <a href="Najla_Booking.php?type=Fortuner" class="btn btn-primary form-control">
+                  <b>
+                  Book Now
+                  </b>
+              </a>
+                
+            </div>
 
+            </div>
           </div>
-        </div>
+          <!-- fortuner -->
       </div>
+<!-- kotak -->
     </div>
     <br>
     <footer class="bg-secondary" style="text-align: center;color:black">

@@ -12,6 +12,7 @@
 </head>
 <body>
     <body style="background-color:white;">
+<!--  -->
     <nav class="navbar-dark bg-secondary ">
       <ul class="nav justify-content-center">
 
@@ -31,6 +32,7 @@
         </li>
       </ul>
     </nav>
+    <!-- NAVBAR -->
 
             <div class = "container style="text-align: center; padding-top: 0.5cm;">
             <br>
