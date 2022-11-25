@@ -39,7 +39,7 @@ require_once 'config/insert.php';
         
         <!-- form -->
         <div class="row">
-            <form action="config/insert.php" method="POST" enctype="multipart/form-data">
+            <form action="config/add.php" method="POST" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label fw-bold">Nama mobil</label>
                     <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

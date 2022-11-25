@@ -41,7 +41,7 @@
         <!-- read -->
             <div class="row g-2">
             <?php
-                $sql = "SELECT * FROM showroom_najla_table ORDER BY id_mobil ASC";
+                $sqli = "SELECT * FROM showroom_najla_table ORDER BY id_mobil ASC";
                 $query = mysqli_query($connector, $sql);
 
                 //cek kalau error
