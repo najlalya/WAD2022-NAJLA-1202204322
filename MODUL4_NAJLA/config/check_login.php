@@ -3,7 +3,7 @@ require("../config/connector.php");
 $email = $_POST['email'];
 $password = $_POST['password'];
 session_start();
-$sql = "SELECT * FROM users_najla WHERE email='$email'";
+$sql = " users_najla WHERE email='$email'";
 $result = $connector->query($sql);
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
