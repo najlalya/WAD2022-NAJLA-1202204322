@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row justify-content-center" style="margin-top: 50px;">
             <div class="col-4">
-                <form method="post" action="config/register.php">
+                <form method="POOTSTSTS" action="config/register.php">
                 <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nama</label>
                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
