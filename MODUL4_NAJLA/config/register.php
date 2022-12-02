@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $no_hp = $_POST['no_hp'];
 $passwordHash = md5($password);
-$sql = "INSERT INTO users_najla (nama, email, password, no_hp)
+$sql = " users_najla (nama, email, password, no_hp)
 VALUES ('$nama', '$email', '$passwordHash', '$no_hp')";
 
 if ($connector->query($sql) === TRUE) {
