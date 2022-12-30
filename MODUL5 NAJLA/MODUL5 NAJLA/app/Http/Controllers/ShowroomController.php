@@ -1,4 +1,4 @@
-    <?php
+<?php
 
     namespace App\Http\Controllers;
 
@@ -45,7 +45,8 @@
          */
         public function showCar(Request $request)
         {
-            return view('list')->with('showroom', $showroom);
+            $showroom = Showrooms::all();
+            return view('/list')->with('showroom', $showroom);
         }
 
         /**
